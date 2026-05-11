@@ -8,76 +8,115 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main class="page">
-    <header class="hero">
-      <div class="intro">
-        <p class="eyebrow">AI Undergraduate Researcher</p>
-        <h1>Jiashun Wang</h1>
-        <p class="subtitle">
-          B.S. student in Artificial Intelligence at Shanghai University of International Business and Economics.
-          I work on LLM agents, financial AI safety, multi-agent systems, and Web3 automation.
-        </p>
-        <nav class="links" aria-label="Profile links">
-          <a href="mailto:24089054@suibe.edu.cn">Email</a>
-          <a href="https://scholar.google.com/citations?hl=en&amp;user=Y1jVP_cAAAAJ">Google Scholar</a>
-          <a href="Jiashun_Wang_CV.pdf">CV</a>
-        </nav>
-      </div>
+  <div class="site">
+    <aside class="profile">
       <img class="portrait" src="portrait.jpg" alt="Portrait of Jiashun Wang">
-    </header>
+      <h1>Jiashun Wang</h1>
+      <p class="role">Undergraduate Researcher in Artificial Intelligence</p>
+      <p class="affiliation">Shanghai University of International Business and Economics</p>
 
-    <section>
-      <h2>Research Interests</h2>
-      <p>
-        LLM agents; financial AI safety and evaluation; multi-agent systems; blockchain/Web3 automation;
-        retrieval-augmented generation.
-      </p>
-    </section>
+      <div class="quick-links" aria-label="Profile links">
+        <a href="mailto:24089054@suibe.edu.cn">Email</a>
+        <a href="https://scholar.google.com/citations?hl=en&amp;user=Y1jVP_cAAAAJ">Google Scholar</a>
+        <a href="Jiashun_Wang_CV.pdf">CV</a>
+      </div>
 
-    <section>
-      <h2>Publications and Working Papers</h2>
-      <article class="publication">
-        <h3>OnChainAgent: LLM-Powered Multi-Agent Systems for Autonomous Operations on the Ethereum Mainnet</h3>
-        <p class="authors">
-          <strong>Jiashun Wang</strong>, Zhi Yang, Guangyan Gan, Hanzhang Qin, Liwen Zhang, and Lin William Cong.
-        </p>
-        <p>Proceedings of the Nanyang Blockchain Conference (NBC 2026).</p>
-        <p><a href="OnChainAgent.pdf">PDF</a></p>
-      </article>
+      <div class="interests">
+        <h2>Interests</h2>
+        <p>LLM agents, financial AI safety, benchmark construction, multi-agent systems, and Web3 automation.</p>
+      </div>
+    </aside>
 
-      <article class="publication">
-        <h3>FinVault: Benchmarking Financial Agent Safety in Execution-Grounded Environments</h3>
-        <p class="authors">Zhi Yang, Runguo Li, Qiqi Qiang, <strong>Jiashun Wang</strong>, et al.</p>
-        <p>arXiv preprint arXiv:2601.07853.</p>
+    <main class="content">
+      <section class="intro">
+        <p class="eyebrow">Personal Homepage</p>
+        <h2>About</h2>
         <p>
-          <a href="https://arxiv.org/abs/2601.07853">arXiv</a>
-          <span aria-hidden="true"> · </span>
-          <a href="FinVault.pdf">PDF</a>
+          I am a B.S. student in Artificial Intelligence at Shanghai University of International
+          Business and Economics. My current work focuses on dependable language-driven systems
+          for finance and blockchain, especially LLM agents, execution-grounded safety evaluation,
+          and multi-agent coordination.
         </p>
-      </article>
-    </section>
+      </section>
 
-    <section>
-      <h2>Experience</h2>
-      <article>
-        <h3>Research and Development Intern</h3>
-        <p class="meta">AI Development and Service Center, Shanghai University of Finance and Economics · Jul. 2025 -- Jan. 2026</p>
-        <ul>
+      <section>
+        <div class="section-heading">
+          <h2>News</h2>
+        </div>
+        <ul class="timeline">
+          <li><time>2026</time><span>FinVault is available as an arXiv preprint.</span></li>
+          <li><time>2026</time><span>OnChainAgent is under review for NBC 2026.</span></li>
+          <li><time>2025</time><span>Received National Bronze Award in the China International College Students' Innovation Competition.</span></li>
+        </ul>
+      </section>
+
+      <section>
+        <div class="section-heading">
+          <h2>Publications and Working Papers</h2>
+        </div>
+
+        <article class="publication featured">
+          <div class="pub-body">
+            <span class="badge">NBC 2026, Under Review</span>
+            <h3>OnChainAgent: LLM-Powered Multi-Agent Systems for Autonomous Operations on the Ethereum Mainnet</h3>
+            <p class="authors">
+              <strong>Jiashun Wang</strong>, Zhi Yang, Guangyan Gan, Hanzhang Qin, Liwen Zhang, and Lin William Cong.
+            </p>
+            <p>
+              A multi-agent system for safe, state-aware natural-language operations on the Ethereum mainnet.
+            </p>
+            <div class="pub-links">
+              <a href="OnChainAgent.pdf">PDF</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="publication">
+          <div class="pub-body">
+            <span class="badge secondary">arXiv:2601.07853</span>
+            <h3>FinVault: Benchmarking Financial Agent Safety in Execution-Grounded Environments</h3>
+            <p class="authors">Zhi Yang, Runguo Li, Qiqi Qiang, <strong>Jiashun Wang</strong>, et al.</p>
+            <p>
+              An execution-grounded benchmark for evaluating financial-agent safety across regulatory scenarios,
+              real-world vulnerabilities, and adversarial test cases.
+            </p>
+            <div class="pub-links">
+              <a href="https://arxiv.org/abs/2601.07853">arXiv</a>
+              <a href="FinVault.pdf">PDF</a>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section>
+        <div class="section-heading">
+          <h2>Experience</h2>
+        </div>
+        <article class="experience">
+          <div>
+            <h3>Research and Development Intern</h3>
+            <p class="meta">AI Development and Service Center, Shanghai University of Finance and Economics</p>
+          </div>
+          <time>Jul. 2025 - Jan. 2026</time>
+        </article>
+        <ul class="compact-list">
           <li>Developed frontend modules for the FinEval financial LLM evaluation platform.</li>
           <li>Built AML data pipelines and a RAG system that generated 46K QA pairs for LLM training.</li>
           <li>Designed workflow prototypes for intelligent bond-analysis and financial-agent systems.</li>
         </ul>
-      </article>
-    </section>
+      </section>
 
-    <section>
-      <h2>Selected Honors</h2>
-      <ul class="honors">
-        <li>National Third Prize, Zhengda Cup National College Student Market Survey and Analysis Competition, Apr. 2026.</li>
-        <li>National Bronze Award, China International College Students' Innovation Competition, Oct. 2025.</li>
-        <li>First Prize, Shanghai Huichuang Qingchun Innovation and Entrepreneurship Competition, Sep. 2025.</li>
-      </ul>
-    </section>
-  </main>
+      <section>
+        <div class="section-heading">
+          <h2>Selected Honors</h2>
+        </div>
+        <ul class="honors">
+          <li><time>Apr. 2026</time><span>National Third Prize, Zhengda Cup National College Student Market Survey and Analysis Competition.</span></li>
+          <li><time>Oct. 2025</time><span>National Bronze Award, China International College Students' Innovation Competition.</span></li>
+          <li><time>Sep. 2025</time><span>First Prize, Shanghai Huichuang Qingchun Innovation and Entrepreneurship Competition.</span></li>
+        </ul>
+      </section>
+    </main>
+  </div>
 </body>
 </html>
