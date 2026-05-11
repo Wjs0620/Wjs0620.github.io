@@ -62,12 +62,12 @@ a:focus {
 
 .portrait {
   display: block;
-  width: 172px;
+  width: min(100%, 230px);
   height: auto;
   margin: 0 auto 22px;
   object-fit: contain;
   border: 1px solid var(--line);
-  border-radius: 18px;
+  border-radius: 12px;
 }
 
 h1,
@@ -335,7 +335,7 @@ h3 {
   }
 
   .portrait {
-    width: 150px;
+    width: min(100%, 210px);
     height: auto;
   }
 }
