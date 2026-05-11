@@ -63,9 +63,9 @@ a:focus {
 .portrait {
   display: block;
   width: 172px;
-  height: 172px;
+  height: auto;
   margin: 0 auto 22px;
-  object-fit: cover;
+  object-fit: contain;
   border: 1px solid var(--line);
   border-radius: 18px;
 }
@@ -336,6 +336,6 @@ h3 {
 
   .portrait {
     width: 150px;
-    height: 150px;
+    height: auto;
   }
 }
